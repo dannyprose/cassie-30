@@ -11,8 +11,6 @@ function ($scope, instagram){
 
   $scope.hashtag = 'dope';
 
-  $scope.layout = 'grid';
-
   $scope.pics = [];
 
   instagram.fetchPopular(function(data){
