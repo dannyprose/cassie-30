@@ -9,7 +9,7 @@
 angular.module('cassie30App').controller('MainCtrl', ['$scope', 'instagram' ,
 function ($scope, instagram){
 
-  $scope.hashtag = 'tag';
+  $scope.hashtag = 'dope';
 
   $scope.layout = 'grid';
 
