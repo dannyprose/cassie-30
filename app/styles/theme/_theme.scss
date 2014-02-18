@@ -10,10 +10,17 @@ body {
   header[role="site_header"] {
     
     h1 { 
+      visibility: hidden;
+      display: inline;
+      text-align: center;
+
 
       &:after{ 
+        display: block;
+        visibility: visible;
         @include icomoon_defintion;
         content: "\e600";
+        font-size: 15em;
 
       }
 
