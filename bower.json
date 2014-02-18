@@ -13,7 +13,8 @@
     "videojs": "~4.3.0",
     "video.js": "git@github.com:videojs/video.js-component.git#~4.3.0",
     "fittext": "*",
-    "jquery": "1.11.0"
+    "jquery": "1.11.0",
+    "flowtype": "*"
   },
   "devDependencies": {
     "angular-mocks": "1.2.6",
