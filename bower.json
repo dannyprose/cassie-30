@@ -12,7 +12,6 @@
     "normalize-css": "3.0.0",
     "videojs": "~4.3.0",
     "video.js": "git@github.com:videojs/video.js-component.git#~4.3.0",
-    "fittext": "*",
     "jquery": "1.11.0",
     "flowtype": "*"
   },
