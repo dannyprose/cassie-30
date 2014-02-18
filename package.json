@@ -1,6 +1,11 @@
 {
   "name": "cassie30",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "homepage": "http://30.cassiegreer.com/",
+  "repository" :
+    { "type" : "git"
+    , "url" : "git@github.com:dannyprose/cassie-30.git"
+    },
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
