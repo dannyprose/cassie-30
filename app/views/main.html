@@ -4,7 +4,7 @@
 
   <ul>
     <li ng-repeat="p in pics">
-        <div ng-if="p.type == 'video'">
+        <div class="instagram_media" ng-if="p.type == 'video'">
 
           <h4>{{p.type}}</h4>
           <a href="{{p.link}}" target="_blank">
@@ -14,7 +14,7 @@
 
         </div>
 
-        <div ng-if="p.type == 'image'">
+        <div class="instagram_media" ng-if="p.type == 'image'">
 
           <h4>{{p.type}}</h4>
           <a href="{{p.link}}" target="_blank">
