@@ -6,4 +6,19 @@ body {
   background-color: $primary_color;
   color: $body_copy;
 
+  // Site Hedaer
+  header[role="site_header"] {
+    
+    h1 { 
+
+      &:after{ 
+        @include icomoon_defintion;
+        content: "\e600";
+
+      }
+
+    }
+
+  }
+
 }

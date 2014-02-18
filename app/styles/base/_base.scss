@@ -17,11 +17,11 @@ $body_copy            : white;
 
 @font-face {
   font-family: 'icomoon';
-  src:url('../fonts/icomoon.eot?-nu9upz');
-  src:url('../fonts/icomoon.eot?#iefix-nu9upz') format('embedded-opentype'),
-    url('../fonts/icomoon.woff?-nu9upz') format('woff'),
-    url('../fonts/icomoon.ttf?-nu9upz') format('truetype'),
-    url('../fonts/icomoon.svg?-nu9upz#icomoon') format('svg');
+  src:url('fonts/icomoon/icomoon.eot?-nu9upz');
+  src:url('fonts/icomoon/icomoon.eot?#iefix-nu9upz') format('embedded-opentype'),
+    url('fonts/icomoon/icomoon.woff?-nu9upz') format('woff'),
+    url('fonts/icomoon/icomoon.ttf?-nu9upz') format('truetype'),
+    url('fonts/icomoon/icomoon.svg?-nu9upz#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -47,7 +47,7 @@ $body_copy            : white;
 /////////
 // MIXINS
 
-@mixin icomoon {
+@mixin icomoon_defintion {
   font-family: 'icomoon';
   speak: none;
   font-style: normal;
