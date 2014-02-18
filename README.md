@@ -13,5 +13,5 @@ Yeoman generator: [generator-angular](https://github.com/yeoman/generator-angula
 
 ### Setup
 * Run `sudo npm install --save-dev`
-* Run 'bower install'
+* Run `bower install`
 * Run `grunt serve`
