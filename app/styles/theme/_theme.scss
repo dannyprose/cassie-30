@@ -8,16 +8,22 @@ body {
 
   // Site Hedaer
   header[role="site_header"] {
+    color: white;
+    text-align: center;
 
     h1 {
       visibility: hidden;
       display: inline;
-      text-align: center;
-
+      
     }
 
     .heeader_logo { width: 100%; }
 
+  }
+
+  // Site Body
+  div[role="site_main"] {
+    background-color: white;
   }
 
 }
