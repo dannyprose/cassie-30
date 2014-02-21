@@ -4,3 +4,5 @@ components
 .www
 .sass-cache
 export
+
+/.dist/
