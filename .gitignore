@@ -1,6 +1,8 @@
 node_modules
-dist
-.tmp
+components
+!.dist/components
+.www
 .sass-cache
+export
 
-.DS_Store
+/.dist/

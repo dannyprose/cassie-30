@@ -1,0 +1,22 @@
+{
+  "project": "Cassie-30",
+  "server": {
+    "port": 8000
+  },
+  "export": {
+    "path": "export",
+    "assetPrefix": "cassie-30"
+  },
+  "compass": {
+    "debugInfo": false,
+    "extensions": [
+      "susy",
+      "breakpoint"
+    ]
+  },
+  "git": {
+    "defaultCommit": "Production build and commit",
+    "deployUpstream": "origin",
+    "deployBranch": "gh-pages"
+  }
+}
