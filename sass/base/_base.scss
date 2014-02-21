@@ -13,6 +13,18 @@ $body_copy            : black;
 ////////
 // FONTS
 
+// League Gothic
+
+@include font-face("League Gothic", font-files("/fonts/League-Gothic/League_Gothic-webfont.ttf", truetype, "/fonts/League-Gothic/League_Gothic-webfont.woff", woff, "/fonts/League-Gothic/League_Gothic-webfont.svg", svg), "/fonts/League-Gothic/League_Gothic-webfont.eot");
+@include font-face("League Gothic Italic", font-files("/fonts/League-Gothic-Italic/League_Ghotic_Extended_Italic_by_Dannci.ttf", truetype, "/fonts/League-Gothic-Italic/League_Ghotic_Extended_Italic_by_Dannci.woff", woff, "/fonts/League-Gothic-Italic/League_Ghotic_Extended_Italic_by_Dannci.svg", svg), "/fonts/League-Gothic-Italic/League_Ghotic_Extended_Italic_by_Dannci.eot");
+
+// Interstate Gothic
+
+@include font-face("Interstate Light", font-files("/fonts/interstate/interstate-light-webfont.ttf", truetype, "/fonts/interstate/interstate-light-webfont.woff", woff, "/fonts/interstate/interstate-light-webfont.svg", svg), "/fonts/interstate/interstate-light-webfont.eot");
+@include font-face("Interstate Regular", font-files("/fonts/interstate/interstate-regular-webfont.ttf", truetype, "/fonts/interstate/interstate-regular-webfont.woff", woff, "/fonts/interstate/interstate-regular-webfont.svg", svg), "/fonts/interstate/interstate-regular-webfont.eot");
+@include font-face("Interstate Bold", font-files("/fonts/interstate/interstate-bold-webfont.ttf", truetype, "/fonts/interstate/interstate-bold-webfont.woff", woff, "/fonts/interstate/interstate-bold-webfont.svg", svg), "/fonts/interstate/interstate-bold-webfont.eot");
+@include font-face("Interstate Black", font-files("/fonts/interstate/interstate-black-webfont.ttf", truetype, "/fonts/interstate/interstate-black-webfont.woff", woff, "/fonts/interstate/interstate-black-webfont.svg", svg), "/fonts/interstate/interstate-black-webfont.eot");
+
 // Icomoon
 
 @font-face {
