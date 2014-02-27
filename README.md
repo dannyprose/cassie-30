@@ -13,7 +13,7 @@
 
 * `gem bundle install`
 * `bundle`
-* 'npm install'
+* `npm install`
 * `bower install`
 
 ### Production
