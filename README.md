@@ -2,6 +2,10 @@
 
 ## Local Development
 
+### Platform
+
+* [Middleman](http://middlemanapp.com/)
+
 ### Requirements
 
 * [Bundler](http://bundler.io/)
