@@ -1,0 +1,28 @@
+{
+  "name": "cassie-30",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dannyprose/cassie-30",
+  "authors": [
+    "Danny Palmer <danny@dannyprose.com>"
+  ],
+  "description": "Cassie Greer turns 30, in style.",
+  "keywords": [
+    "cassie",
+    "greer",
+    "cassiegreer",
+    "actor",
+    "middleman"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "~3.0.0"
+  }
+}
