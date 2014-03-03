@@ -1,0 +1,82 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  Actor/Lead: Cassie Greer
+  Site: http://www.cassiegreer.com
+  Twitter: @cassiesgreer
+  Location: Portland, Oregon
+  
+  Designer/Developer/Art Director/Stay-Up-Later: Danny Palmer
+  Site: http://www.dannyprose.com
+  Twitter: @dannyprose
+  Location: Portland, Oregon
+  
+  Main Background Photography: Casey Campbell
+  Site: http://ccphoto.photoshelter.com/
+  Location: Portland, Oregon
+  
+  Helping with Ruby: Jonathan Warner
+  Twitter: @brink
+  Location: United States
+
+/* THANKS */
+  HTML5 Boilerplate and being awesome: Paul Irish
+  Site: http://www.paulirish.com/
+  Twitter: @paul_irish
+  
+  Middleman Support: Thomas Reynolds
+  Site: http://awardwinningfjords.com/
+  Twitter: @tdreyno
+  
+  SUSY and Compass: Eric A. Meyer
+  Site: http://eric.oddbird.net/
+  Twitter: @eriiicam
+  
+  Special Testing/Feedback Thanks: Jessica Hage, Scott Palmer, Bryan Falcon, MaryKate McMullen, Nicole Miazgowicz, Danielle Kehlmann, Lindsay Nance, Bradford Sadler, Alexa Cappiello, Elissa Weinzimmer, Bruce Linser.
+
+/* Feedback and Testing */
+    Jessica Hage
+    Scott Palmer
+    Bryan Falcon
+    MaryKate McMullen
+    Nicole Miazgowicz
+    Danielle Kehlmann
+    Lindsay Nance
+    Bradford Sadler
+    Alexa Cappiello
+    Elissa Weinzimmer
+    Bruce Linser
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery
+  Language: English
+  Software: Middleman (http://www.middlemanapp.com), HTML5BP
+  
+
+                                    
+                               -o/-                       
+                               +oo//-                     
+                              :ooo+//:                    
+                             -ooooo///-                   
+                             /oooooo//:                   
+                            :ooooooo+//-                  
+                           -+oooooooo///-                 
+           -://////////////+oooooooooo++////////////::    
+            :+ooooooooooooooooooooooooooooooooooooo+:::-  
+              -/+ooooooooooooooooooooooooooooooo+/::////:-
+                -:+oooooooooooooooooooooooooooo/::///////:-
+                  --/+ooooooooooooooooooooo+::://////:-   
+                     -:+ooooooooooooooooo+:://////:--     
+                       /ooooooooooooooooo+//////:-        
+                      -ooooooooooooooooooo////-           
+                      /ooooooooo+oooooooooo//:            
+                     :ooooooo+/::/+oooooooo+//-           
+                    -oooooo/::///////+oooooo///-          
+                    /ooo+::://////:---:/+oooo//:          
+                   -o+/::///////:-      -:/+o+//-         
+                   :-:///////:-            -:/://         
+                     -////:-                 --//:        
+                       --                       -:        

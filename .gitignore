@@ -1,8 +1,5 @@
-node_modules
-components
-!.dist/components
-.www
 .sass-cache
-export
 
-/.dist/
+node_modules
+
+bower_components/
