@@ -11,8 +11,8 @@
     %title Cassie 30
     %meta{content: "Cassie Greer turns 30, like a diva.", name: "description"}/
     %meta{content: "width=device-width", name: "viewport"}/
-    %script{src: "bower_components/modernizr/modernizr.js"}
-    = stylesheet_link_tag "all"
+    = javascript_include_tag  "vendor/modernizr.js"
+    = stylesheet_link_tag "site"
   %body{:class => page_classes}
     /[if lt IE 7]
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
