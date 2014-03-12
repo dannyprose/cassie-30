@@ -1,2 +1,4 @@
-//Vendor - Plugins - jQuery
-//= require jquery-instagram/dist/instagram.js
+// Vendor - Plugins - jQuery
+
+// UI
+//= require ui/homepage_instagram.js
