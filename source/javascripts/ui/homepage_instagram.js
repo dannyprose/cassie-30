@@ -19,6 +19,7 @@ $(document).ready(function() {
   var instafeedRefreshTimer = setInterval(RefreshTimer, 60000);
   function RefreshTimer() {
     feed.run();
+    scrollTop: $("#instafeed").offset().top
   }
 
 });
