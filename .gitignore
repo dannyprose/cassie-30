@@ -8,3 +8,5 @@ bower_components/
 
 /.bundle/
 /bin/
+
+/npm-debug.log
