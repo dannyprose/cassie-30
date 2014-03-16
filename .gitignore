@@ -10,3 +10,5 @@ bower_components/
 /bin/
 
 /npm-debug.log
+
+/.DS_Store
