@@ -13,6 +13,52 @@ $body_copy            : black;
 ////////
 // FONTS
 
+// Proxima Nova
+
+@font-face {
+  font-family: 'proxima-nova';
+  src: url('fonts/promixanova/ProximaNovaRegular/ProximaNovaRegular.eot');
+  src: url('fonts/promixanova/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix') format('embedded-opentype'),
+     url('fonts/promixanova/ProximaNovaRegular/ProximaNovaRegular.woff') format('woff'),
+     url('fonts/promixanova/ProximaNovaRegular/ProximaNovaRegular.ttf') format('truetype'),
+     url('fonts/promixanova/ProximaNovaRegular/ProximaNovaRegular.svg#proxima-nova') format('svg');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'proxima-nova';
+  src: url('fonts/promixanova/ProximaNovaRegularItalic/ProximaNovaRegularItalic.eot');
+  src: url('fonts/promixanova/ProximaNovaRegularItalic/ProximaNovaRegularItalic.eot?#iefix') format('embedded-opentype'),
+     url('fonts/promixanova/ProximaNovaRegularItalic/ProximaNovaRegularItalic.woff') format('woff'),
+     url('fonts/promixanova/ProximaNovaRegularItalic/ProximaNovaRegularItalic.ttf') format('truetype'),
+     url('fonts/promixanova/ProximaNovaRegularItalic/ProximaNovaRegularItalic.svg#proxima-nova') format('svg');
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'proxima-nova';
+  src: url('fonts/promixanova/ProximaNovaSemibold/ProximaNovaSemibold.eot');
+  src: url('fonts/promixanova/ProximaNovaSemibold/ProximaNovaSemibold.eot?#iefix') format('embedded-opentype'),
+     url('fonts/promixanova/ProximaNovaSemibold/ProximaNovaSemibold.woff') format('woff'),
+     url('fonts/promixanova/ProximaNovaSemibold/ProximaNovaSemibold.ttf') format('truetype'),
+     url('fonts/promixanova/ProximaNovaSemibold/ProximaNovaSemibold.svg#proxima-nova') format('svg');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'proxima-nova';
+  src: url('fonts/promixanova/ProximaNovaSemiboldItalic/ProximaNovaSemiboldItalic.eot');
+  src: url('fonts/promixanova/ProximaNovaSemiboldItalic/ProximaNovaSemiboldItalic.eot?#iefix') format('embedded-opentype'),
+     url('fonts/promixanova/ProximaNovaSemiboldItalic/ProximaNovaSemiboldItalic.woff') format('woff'),
+     url('fonts/promixanova/ProximaNovaSemiboldItalic/ProximaNovaSemiboldItalic.ttf') format('truetype'),
+     url('fonts/promixanova/ProximaNovaSemiboldItalic/ProximaNovaSemiboldItalic.svg#proxima-nova') format('svg');
+  font-style: italic;
+  font-weight: 700;
+}
+
 // Icomoon
 
 @font-face {
