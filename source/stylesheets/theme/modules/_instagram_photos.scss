@@ -19,6 +19,78 @@
   &:first-child { margin-top: 0px; }
   &:last-child {margin-bottom: 0; }
 
-  img { max-width: 100%; }
+  img {
+    max-width: 100%;
+    margin-bottom: -5px;
+
+  }
+
+}
+
+.instagram_photo_meta {
+  max-width: 640px;
+  margin: 0 auto;
+  font-size: 0.9em;
+  margin-top: -10px;
+  margin-bottom: 5px;
+
+  .instagram_photo_meta_caption {
+    text-align: left;
+    word-wrap: break-word;
+  }
+
+  .instagram_photo_meta_social {
+    text-align: left;
+    margin-top: 10px;
+
+    a {
+      color: inherit;
+
+    }
+
+    &> div {
+      display: inline-block;
+
+      &.instagram_photo_user {
+
+        &:before {
+          @include icomoon_defintion;
+          content: "\e606";
+          margin-right: 4px;
+          font-size: 0.8em;
+          color: $primary_color;
+          vertical-align: middle;
+
+        }
+
+      }
+
+      &.instagram_photo_likes {
+        float: right;
+        margin-right: 8px;
+
+        &:before {
+          @include icomoon_defintion;
+          content: "\e600";
+          margin-right: 4px;
+          font-size: 0.8em;
+          color: $primary_color;
+          vertical-align: middle;
+
+        }
+
+      }
+
+      &.instagram_photo_comments {
+        @extend .instagram_photo_likes;
+        margin-right: 0;
+
+        &:before { content: "\e602"; }
+
+      }
+
+    }
+
+  }
 
 }
