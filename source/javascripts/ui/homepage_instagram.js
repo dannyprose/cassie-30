@@ -4,6 +4,8 @@
 // Pull in all photos tagged with a certain hashtag
 ///////////////////////////////////////////////////
 
+var instagramTemplate = '<a href="#" data-instagram_type={{model.type}}><img src="{{image}}" /></a>'
+
 $(document).ready(function() {
 
   //Initialize Instafeed.js on load
@@ -11,7 +13,8 @@ $(document).ready(function() {
     get: 'tagged',
     tagName: 'video',
     clientId: '20c5389504fc402d983e5685b859d6ba',
-    template: '<a class="animation" href="{{link}}"><img src="{{image}}" /></a><div>{{model.type}}</div>'
+    template: instagramTemplate,
+    resolution: 'standard_resolution',
   });
   feed.run();
 
