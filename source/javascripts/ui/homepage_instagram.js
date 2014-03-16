@@ -4,7 +4,7 @@
 // Pull in all photos tagged with a certain hashtag
 ///////////////////////////////////////////////////
 
-var instagramTemplate = '<a href="#" data-instagram_type={{model.type}}><img src="{{image}}" /></a>'
+var instagramTemplate = '<a href="#" class="instagram_photo" data-instagram_type={{model.type}}><img src="{{image}}" /></a>'
 
 $(document).ready(function() {
 

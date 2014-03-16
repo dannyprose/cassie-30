@@ -1,9 +1,12 @@
-//Includes & Setup
+// Includes & Setup
 @import "susy";
 
-//Base
+// Base
 @import "base/_base.scss";
 
-//Theme
+// Theme
 @import "theme/_layout.scss";
 @import "theme/_theme.scss";
+
+// Theme Modules
+@import "theme/modules/_instagram_photos.scss";

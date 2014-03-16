@@ -1,0 +1,24 @@
+///////////////////////////////////
+// Theme: Modules: Instagram Photos
+///////////////////////////////////
+
+#instafeed {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+
+.instagram_photo {
+  margin: 0 auto;
+  display: inline-block;
+  border: 1px solid lighten(gray, 30%);
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  &:first-child { margin-top: 0px; }
+  &:last-child {margin-bottom: 0; }
+
+  img { max-width: 100%; }
+
+}
