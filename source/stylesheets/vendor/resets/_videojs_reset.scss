@@ -768,3 +768,22 @@ body.vjs-full-window {
 /* -----------------------------------------------------------------------------
 The original source of this file lives at
 https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
+
+
+// Remove all play controls
+
+.vjs-play-control, .vjs-current-time, .vjs-time-divider, .vjs-duration, .vjs-volume-control, .vjs-mute-control { display: none;}
+
+.vjs-control-bar { height: 0px !important; }
+
+.vjs-progress-control {
+  position: absolute;
+  bottom: 0px;
+  min-height: 4px;
+}
+
+.vjs-play-progress { background: $primary_color !important}
+
+.vjs-load-progress { background: rgba(200, 200, 200, 1) !important}
+
+.vjs-seek-handle { display: none; }
