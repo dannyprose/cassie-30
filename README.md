@@ -22,4 +22,8 @@
 
 ### Production
 
-* Run `middleman`
+* `middleman`
+
+### Production
+
+* `middleman build`
