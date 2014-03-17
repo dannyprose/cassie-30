@@ -12,6 +12,7 @@ $(document).ready(function() {
   var feed = new Instafeed({
     get: 'tagged',
     tagName: 'video',
+    limit: '60',
     clientId: '20c5389504fc402d983e5685b859d6ba',
     template: instagramTemplate,
     resolution: 'standard_resolution',
