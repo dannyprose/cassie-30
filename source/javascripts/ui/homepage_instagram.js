@@ -41,7 +41,7 @@ $(document).ready(function() {
   feed.run();
 
   // Set a refresh of Instafeed every minute
-  var instafeedRefreshTimer = setInterval(RefreshTimer, 6000000);
+  var instafeedRefreshTimer = setInterval(RefreshTimer, 60000);
   function RefreshTimer() {
     feed.run();
     scrollTop: $("#instafeed").offset().top
