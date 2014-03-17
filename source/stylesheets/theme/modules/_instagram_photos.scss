@@ -9,6 +9,7 @@
 
 }
 
+// Photo/Video Container
 .instagram_photo {
   margin: 0 auto;
   display: inline-block;
@@ -25,8 +26,16 @@
 
   }
 
+  video { max-width: 100%; }
+
+  &[data-instagram-type="video"] {
+    cursor: pointer;
+
+  }
+
 }
 
+// Photo/Video Meta Data
 .instagram_photo_meta {
   max-width: 640px;
   margin: 0 auto;
