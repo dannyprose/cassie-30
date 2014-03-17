@@ -26,7 +26,16 @@
 
   }
 
-  video { max-width: 100%; }
+  .video-js {
+      width: auto !important; /* override the plugin's inline dims to let vids scale fluidly */
+      height: auto !important;
+  }
+
+  .video-js video {position: relative !important;}
+   /* The video should expand to force the height of the containing div.
+   One in-flow element is good. As long as everything else in the container
+   div stays `position: absolute` we're okay */
+
 
   &[data-instagram-type="video"] {
     cursor: pointer;

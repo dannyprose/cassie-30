@@ -26,9 +26,13 @@ $(document).ready(function() {
         var videoPoster = $(this).attr("data-instagram-video-thumbnail");
         console.log(videoId);
 
-        var videoPlayer = '<video id="video_' + videoId + '" class="video-js vjs-default-skin" controls preload="auto" poster="' + videoPoster + '"data-setup="{"example_option":true}"><source src="' + videoSource + '" type="video/mp4" /></video>';
+        var videoPlayer = '<video id="video_' + videoId + '" class="video-js vjs-default-skin vjs-big-play-centered" controls height="640" width="640" preload="auto" poster="' + videoPoster + '"data-setup="{"example_option":true}"><source src="' + videoSource + '" type="video/mp4" /></video>';
 
         $(this).html(videoPlayer);
+
+        videojs('#video_' + videoId, {}, function(){
+          // Player (this) is initialized and ready.
+        });
 
       });
 
@@ -37,7 +41,7 @@ $(document).ready(function() {
   feed.run();
 
   // Set a refresh of Instafeed every minute
-  var instafeedRefreshTimer = setInterval(RefreshTimer, 60000);
+  var instafeedRefreshTimer = setInterval(RefreshTimer, 6000000);
   function RefreshTimer() {
     feed.run();
     scrollTop: $("#instafeed").offset().top
