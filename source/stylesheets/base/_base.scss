@@ -59,6 +59,30 @@ $body_copy            : black;
   font-weight: 700;
 }
 
+// League Gothic
+
+@font-face {
+  font-family: 'league-gothic';
+  src: url('fonts/League-Gothic/League_Gothic-webfont.eot');
+  src: url('fonts/League-Gothic/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+     url('fonts/League-Gothic/League_Gothic-webfont.woff') format('woff'),
+     url('fonts/League-Gothic/League_Gothic-webfont.ttf') format('truetype'),
+     url('fonts/League-Gothic/League_Gothic-webfont.svg#league-gothic') format('svg');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'league-gothic';
+  src: url('fonts/League-Gothic/League-Gothic-ItalicLeague_Ghotic_Extended_Italic_by_Dannci.eot');
+  src: url('fonts/League-Gothic/League-Gothic-ItalicLeague_Ghotic_Extended_Italic_by_Dannci.eot?#iefix') format('embedded-opentype'),
+     url('fonts/League-Gothic/League-Gothic-ItalicLeague_Ghotic_Extended_Italic_by_Dannci.woff') format('woff'),
+     url('fonts/League-Gothic/League-Gothic-ItalicLeague_Ghotic_Extended_Italic_by_Dannci.ttf') format('truetype'),
+     url('fonts/League-Gothic/League-Gothic-ItalicLeague_Ghotic_Extended_Italic_by_Dannci.svg#league-gothic') format('svg');
+  font-style: italic;
+  font-weight: 400;
+}
+
 // Icomoon
 
 @font-face {
