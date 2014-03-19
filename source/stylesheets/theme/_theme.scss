@@ -50,6 +50,7 @@ body {
       border: 2px solid white;
       padding: 10px;
       margin: 10px auto;
+      margin-bottom: 20px;
 
       a.trigger {
         color: white;
@@ -73,11 +74,15 @@ body {
 
       }
 
-      &:hover {
+      &:hover, &.active {
 
         background: white;
 
         a:before { color: $primary_color; }
+
+      }
+
+      &.close {
 
       }
 
@@ -86,6 +91,15 @@ body {
     // More Info Content
     #more_info_content {
       margin-top: 10px;
+      overflow: hidden;
+      height: 0px;
+      @include transition(height 0.5s ease);
+
+      &.visible {
+        height: 200px;
+
+      }
+
     }
 
   }

@@ -8,6 +8,14 @@ var instagramTemplate = '<a class="instagram_photo" data-instagram-type={{model.
 
 $(document).ready(function() {
 
+  //More Information Toggle
+  $('#more_info_trigger a.trigger').on( "click", function() {
+    $('#more_info_content').toggleClass('visible');
+    $('#more_info_trigger').toggleClass('active');
+
+    return false;
+  });
+
   //Initialize Instafeed.js on load
   var feed = new Instafeed({
     get: 'tagged',
