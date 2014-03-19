@@ -27,4 +27,19 @@ body {
     background-color: white;
   }
 
+  // More Info
+  &>section#more_info {
+    text-align: center;
+    color: white;
+
+    h2 {
+      font-family: "league-gothic", sans-serif;
+      text-transform: uppercase;
+      font-size: 3em;
+      margin: 0;
+
+    }
+
+  }
+
 }
