@@ -72,6 +72,13 @@ body {
 
         }
 
+        &.active:before {
+          content: "\e604";
+          margin-left: -16px;
+          margin-top: -3px;
+
+        }
+
       }
 
       &:hover, &.active {

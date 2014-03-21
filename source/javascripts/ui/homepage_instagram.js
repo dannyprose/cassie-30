@@ -11,7 +11,7 @@ $(document).ready(function() {
   //More Information Toggle
   $('#more_info_trigger a.trigger').on( "click", function() {
     $('#more_info_content').toggleClass('visible');
-    $('#more_info_trigger').toggleClass('active');
+    $('#more_info_trigger a.trigger').toggleClass('active');
 
     return false;
   });
