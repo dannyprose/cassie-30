@@ -20,7 +20,7 @@
 * `npm install`
 * `bower install`
 
-### Production
+### Development
 
 * `middleman`
 
