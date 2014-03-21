@@ -19,7 +19,7 @@ $(document).ready(function() {
   //Initialize Instafeed.js on load
   var feed = new Instafeed({
     get: 'tagged',
-    tagName: 'video',
+    tagName: 'cassie30',
     limit: '60',
     clientId: '20c5389504fc402d983e5685b859d6ba',
     template: instagramTemplate,
