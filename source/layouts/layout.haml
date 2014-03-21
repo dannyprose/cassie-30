@@ -1,0 +1,60 @@
+!!!
+/[if lt IE 7] <html class="no-js lt-ie9 lt-ie8 lt-ie7">
+/[if IE 7] <html class="no-js lt-ie9 lt-ie8">
+/[if IE 8] <html class="no-js lt-ie9">
+/ [if gt IE 8]><!
+%html.no-js
+  / <![endif]
+  %head
+    %meta{charset: "utf-8"}/
+    %meta{content: "IE=edge", "http-equiv" => "X-UA-Compatible"}/
+    %title Cassie 30
+    %meta{content: "Cassie Greer turns 30, like a hero.", name: "description"}/
+    %meta{content: "width=device-width", name: "viewport"}/
+    %link{href: "apple-touch-icon-114x114-precomposed.png", rel: "apple-touch-icon-precomposed", sizes: "114x114"}/
+    %link{href: "apple-touch-icon-72x72-precomposed.png", rel: "apple-touch-icon-precomposed", sizes: "72x72"}/
+    %link{href: "apple-touch-icon-precomposed.png", rel: "apple-touch-icon-precomposed"}/
+    %meta{content: "Cassie 30", property: "og:title"}/
+    %meta{content: "en_US", property: "og:locale"}/
+    %meta{content: "http://30.cassiegreer.com", property: "og:url"}/
+    %meta{content: "http://30.cassiegreer.com/1111---Cassie-Greer---Facebook-Share.jpg", property: "og:image"}/
+    %meta{content: "Cassie 30", property: "og:site_name"}/
+    %meta{content: "Cassie Greer turns 30, like a hero.", property: "og:description"}/
+
+    = javascript_include_tag  "vendor/modernizr.js"
+    %script{src: "//vjs.zencdn.net/4.4/video.js"}
+    = stylesheet_link_tag "vendor/normalize.css"
+    %link{href: "//vjs.zencdn.net/4.4/video-js.css", rel: "stylesheet"}/
+    = stylesheet_link_tag "site"
+
+  %body{:class => page_classes}
+    /[if lt IE 9]
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    %header{role: "site_header"}
+      %a{href: "#"}
+        %h1 Cassie 30
+        %object.header_logo{data: "images/cassie-30-logo.svg", type: "image/svg+xml"}
+
+    %section#more_info
+      #more_info_trigger
+        %a.trigger{:href => "#", :title => "What is Cassie 30?"}
+      #more_info_content
+        %h2 Not here? Still celebrate.
+
+        %p
+          :plain
+            Tag a video (or photo) on <a href="instagram://app">Instagram</a> with <strong><a href="instagram://tag?name=cassie30">#cassie30</a></strong>, and it will show up up on this page, and at <a href="https://www.facebook.com/events/703794919654141/" target="_blank"> the party tonight</a>.
+
+    .container{role: "site_main"}= yield
+
+    %script{src: "//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"}
+    = javascript_include_tag  "site"
+
+    :javascript
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-XXXXX-X');
+      ga('send', 'pageview');

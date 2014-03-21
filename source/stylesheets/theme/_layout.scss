@@ -1,0 +1,44 @@
+/////////////////////
+// Theme: Layout/Grid
+/////////////////////
+
+// Global Border Box
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+// Breakpoints
+
+$break_large                    : 960px;
+$column_count                   : 12;
+
+// Global Susy Settings
+
+$susy: (
+  gloabl-box-sizing: border-box,
+  gutter-position: before,
+  debug: (
+    image: hide,
+    color: rgba(#66f, .25),
+    output: background,
+  ),
+);
+
+// Padding Utility
+
+@mixin grid-padding {
+  //@include background-origin(border-box);
+  //@include background-clip(border-box);
+  padding: $global_box_padding;
+
+}
+
+// Grid Structure
+
+div[role="site_main"], header[role="site_header"], section#more_info {
+  @include container($column_count);
+  max-width: 1240px;
+  padding-left: .8em;
+  padding-right: .8em;
+
+}

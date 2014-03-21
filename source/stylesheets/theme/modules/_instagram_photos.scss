@@ -1,0 +1,115 @@
+///////////////////////////////////
+// Theme: Modules: Instagram Photos
+///////////////////////////////////
+
+#instafeed {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+
+// Photo/Video Container
+.instagram_photo {
+  margin: 0 auto;
+  display: inline-block;
+  border: 1px solid lighten(gray, 30%);
+  margin-top: 50px;
+  margin-bottom: 20px;
+
+  &:first-child { margin-top: 0px; }
+  &:last-child {margin-bottom: 0; }
+
+  img {
+    max-width: 100%;
+    margin-bottom: -5px;
+
+  }
+
+  .video-js {
+      width: auto !important; /* override the plugin's inline dims to let vids scale fluidly */
+      height: auto !important;
+  }
+
+  .video-js video {position: relative !important;}
+   /* The video should expand to force the height of the containing div.
+   One in-flow element is good. As long as everything else in the container
+   div stays `position: absolute` we're okay */
+
+
+  &[data-instagram-type="video"] {
+    cursor: pointer;
+
+  }
+
+}
+
+// Photo/Video Meta Data
+.instagram_photo_meta {
+  max-width: 640px;
+  margin: 0 auto;
+  font-size: 0.9em;
+  margin-top: -10px;
+  margin-bottom: 5px;
+
+  .instagram_photo_meta_caption {
+    text-align: left;
+    word-wrap: break-word;
+  }
+
+  .instagram_photo_meta_social {
+    text-align: left;
+    margin-top: 10px;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover { text-decoration: underline; }
+
+    }
+
+    &> div {
+      display: inline-block;
+
+      &.instagram_photo_user {
+
+        img.profile_picture {
+          max-height: 30px;
+          vertical-align: middle;
+          margin-right: 5px;
+          @include border-radius(50%);
+
+        }
+
+      }
+
+      &.instagram_photo_likes {
+        float: right;
+        margin-right: 8px;
+
+        &:before {
+          @include icomoon_defintion;
+          content: "\e600";
+          margin-right: 4px;
+          font-size: 0.8em;
+          color: $primary_color;
+          vertical-align: middle;
+
+        }
+
+      }
+
+      &.instagram_photo_comments {
+        @extend .instagram_photo_likes;
+        margin-right: 0;
+
+        &:before { content: "\e602"; }
+
+      }
+
+    }
+
+  }
+
+}

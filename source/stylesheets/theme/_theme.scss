@@ -1,0 +1,138 @@
+///////////////
+// Theme: Theme
+///////////////
+
+body {
+  background-color: $primary_color;
+  color: $body_copy;
+  font-family: 'proxima-nova', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+
+  // Site Hedaer
+  header[role="site_header"] {
+    color: white;
+    text-align: center;
+
+    h1 {
+      visibility: hidden;
+      display: inline;
+
+    }
+
+    .heeader_logo { width: 100%; }
+
+  }
+
+  // Welcome Message
+  section#welcome {
+    text-align: center;
+    margin-top: -82px;
+    color: $primary_color;
+    font-family: "league-gothic", sans-serif;
+    text-transform: uppercase;
+
+    h2 {
+      margin: 0;
+      font-size: 4em;
+
+    }
+
+    p {
+      color: $primary_color;
+      font-size: 2em;
+
+    }
+
+  }
+
+  // Site Body
+  div[role="site_main"] {
+    background-color: white;
+  }
+
+  // More Info
+  &>section#more_info {
+    text-align: center;
+    color: white;
+
+    // General Styling
+    h2 {
+      font-family: "league-gothic", sans-serif;
+      text-transform: uppercase;
+      font-size: 3em;
+      margin: 0;
+
+    }
+
+    // More Info Trigger
+    #more_info_trigger {
+      text-align: center;
+      width: 50px;
+      height: 50px;
+      @include border-radius(50%);
+      border: 2px solid white;
+      padding: 10px;
+      margin: 10px auto;
+      margin-bottom: 20px;
+
+      a.trigger {
+        color: white;
+        text-decoration: none;
+        position: relative;
+        display: inline-block;
+
+        &:before {
+          @include icomoon_defintion;
+          content: "\e605";
+          font-size: 2em;
+          line-height: 0px;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          margin-left: -15px;
+          margin-top: 1px;
+
+
+        }
+
+        &.active:before {
+          content: "\e604";
+          margin-left: -16px;
+          margin-top: -3px;
+
+        }
+
+      }
+
+      &:hover, &.active {
+
+        background: white;
+
+        a:before { color: $primary_color; }
+
+      }
+
+      &.close {
+
+      }
+
+    }
+
+    // More Info Content
+    #more_info_content {
+      margin-top: 10px;
+      overflow: hidden;
+      height: 0px;
+      @include transition(height 0.5s ease);
+
+      &.visible {
+        height: 200px;
+
+      }
+
+      a { color: inherit; }
+
+    }
+
+  }
+
+}
