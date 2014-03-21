@@ -22,6 +22,28 @@ body {
 
   }
 
+  // Welcome Message
+  section#welcome {
+    text-align: center;
+    margin-top: -82px;
+    color: $primary_color;
+    font-family: "league-gothic", sans-serif;
+    text-transform: uppercase;
+
+    h2 {
+      margin: 0;
+      font-size: 4em;
+
+    }
+
+    p {
+      color: $primary_color;
+      font-size: 2em;
+
+    }
+
+  }
+
   // Site Body
   div[role="site_main"] {
     background-color: white;

@@ -45,6 +45,9 @@ $(document).ready(function() {
 
       });
 
+      //Remove welcome message
+      $('section#welcome').remove();
+
     }
   });
   feed.run();
